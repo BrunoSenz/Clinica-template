@@ -32,7 +32,7 @@ export default function Contact() {
           <div className="h-72 w-full lg:h-full">
             <iframe
               title="Localização da clínica"
-              src={`https://www.google.com/maps?q=${mapQuery}&output=embed`}
+              src={`https://www.google.com/maps/place/B%C3%A1rbara+Fontes+-+Est%C3%A9tica,+sa%C3%BAde+%26+bem-estar/@-23.9405986,-46.3227792,15z/data=!4m6!3m5!1s0x94ce0341531cc737:0x2e57a92e73b6dbd7!8m2!3d-23.940561!4d-46.304915!16s%2Fg%2F11y4l7xzwl?entry=ttu&g_ep=EgoyMDI2MDcyMi4wIKXMDSoASAFQAw%3D%3D`}
               className="h-full w-full grayscale-[15%]"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
