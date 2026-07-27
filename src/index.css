@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-nude text-ink font-body antialiased;
+  background: radial-gradient(circle at 15% 0%, #FAF5EE 0%, #F2E7DA 55%, #EAD9C4 100%);
+}
+
+::selection {
+  background: #B8934C;
+  color: #FAF5EE;
+}
+
+:focus-visible {
+  outline: 2px solid #8C6B2E;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Glassmorphism, discreet */
+.glass {
+  background: rgba(255, 254, 252, 0.55);
+  backdrop-filter: blur(18px) saturate(160%);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+  border: 1px solid rgba(184, 147, 76, 0.22);
+}
+
+.glass-card {
+  background: rgba(255, 254, 252, 0.65);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid rgba(184, 147, 76, 0.18);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(120deg, #8C6B2E, #B8934C 45%, #E3C88F 65%, #B8934C 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hairline {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(184, 147, 76, 0.55), transparent);
+}
+
+.eyebrow {
+  @apply font-body text-[0.72rem] tracking-widest2 uppercase text-gold-dark;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F2E7DA;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9AC77;
+  border-radius: 999px;
+  border: 2px solid #F2E7DA;
+}
