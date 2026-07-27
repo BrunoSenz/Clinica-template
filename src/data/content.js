@@ -3,10 +3,10 @@
 export const brand = {
   name: 'Bárbara Fontes',
   tagline: 'Estética, Saúde & Bem Estar',
-  whatsapp: '5511999999999', // TODO: substituir pelo número real
-  whatsappDisplay: '(11) 99999-9999',
-  address: 'Rua Exemplo, 123 — Bairro, Cidade/UF', // TODO: substituir pelo endereço real
-  instagram: 'https://instagram.com/barbarafontes.estetica', // TODO: link real
+  whatsapp: '5513992019779', // TODO: substituir pelo número real
+  whatsappDisplay: '(13) 99201-9779',
+  address: 'R. Rio Grande do Sul, 43 - Piso superior, sala 11 - Jardim Cunhambebe (Vicente de Carvalho), Guarujá - SP, 11450-130', // TODO: substituir pelo endereço real
+  instagram: 'https://instagram.com/barbarafontesestetica', // TODO: link real
 }
 
 export const nav = [
@@ -19,7 +19,7 @@ export const nav = [
 ]
 
 export const hero = {
-  eyebrow: 'Clínica boutique de estética',
+  eyebrow: 'Clínica de estética',
   title: 'Beleza, cuidado e autoestima através de uma pele saudável.',
   text: 'Tratamentos personalizados, tecnologia estética e cuidados desenvolvidos para revelar a melhor versão da sua pele.',
   cta: 'Agendar avaliação',
