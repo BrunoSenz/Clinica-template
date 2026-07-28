@@ -55,17 +55,17 @@ export const treatments = {
     {
       name: 'Limpeza de pele',
       description: 'Higienização profunda e extração profissional para renovar a pele em profundidade.',
-      image: '/images/tratamento-limpeza-de-pele.webp',
+      image: '/images/tratamento-protocolo.webp',
     },
     {
       name: 'Tratamentos faciais',
       description: 'Protocolos combinados para hidratação, luminosidade e equilíbrio da pele do rosto.',
-      image: '/images/tratamento-facial.webp',
+      image: '/images/tratamento-protocolo.webp',
     },
     {
       name: 'Rejuvenescimento',
       description: 'Técnicas que estimulam a renovação celular e a firmeza natural da pele.',
-      image: '/images/tratamento-rejuvenescimento.webp',
+      image: '/images/tratamento-protocolo.webp',
     },
     {
       name: 'Protocolos personalizados',
@@ -75,7 +75,7 @@ export const treatments = {
     {
       name: 'Skincare profissional',
       description: 'Aplicação de ativos de alta performance para resultados visíveis e duradouros.',
-      image: '/images/tratamento-skincare.webp',
+      image: '/images/tratamento-protocolo.webp',
     },
   ],
 }
