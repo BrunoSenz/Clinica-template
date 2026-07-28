@@ -48,7 +48,7 @@ export default function Hero() {
 
           <div className="mt-12 hairline max-w-md" />
 
-          <ul className="mt-6 flex flex-wrap gap-x-8 gap-y-3">
+         <ul className="mt-6 grid max-w-md grid-cols-1 gap-x-6 gap-y-3 min-[390px]:grid-cols-2">
             {hero.badges.map((badge) => (
               <li key={badge} className="flex items-center gap-2 font-body text-[0.8rem] text-ink-soft">
                 <Sparkles size={14} className="text-gold" />
