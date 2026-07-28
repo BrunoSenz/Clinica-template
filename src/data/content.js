@@ -100,9 +100,9 @@ export const skincare = {
   cta: 'Conhecer a linha',
   // TODO: substituir pelos produtos reais
   products: [
-    { name: 'Espuma de limpeza Facial', benefit: 'Limpa sem agredir sua pele.', image: '/images/espuma-produto-01.webp' },
-    { name: 'Hidratante Diário', benefit: 'Barreira de proteção e hidratação prolongada.', image: '/images/skincare-produto-02.webp' },
-    { name: 'Sabonete de Limpeza', benefit: 'Limpeza suave que respeita o equilíbrio da pele.', image: '/images/skincare-produto-03.webp' },
+    { name: 'SOFT SKIN', benefit: 'Espuma de limpeza Facial.', image: '/images/espuma-produto-01.webp' },
+    { name: 'NIACIN PLUS', benefit: 'Sérum de Niacinamida', image: '/images/serum-produto-02.webp' },
+    { name: 'BASIC CARE', benefit: 'Hialurônico Gold.', image: '/images/basic-produto-03.webp' },
   ],
 }
 
