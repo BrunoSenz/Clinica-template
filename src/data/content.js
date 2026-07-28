@@ -26,6 +26,7 @@ export const hero = {
   badges: [
     'Especialista em pele e skincare',
     'Atendimento personalizado',
+    'Estética avançada' ,
     'Resultados reais',
   ],
 }
