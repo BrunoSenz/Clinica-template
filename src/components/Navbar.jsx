@@ -22,7 +22,7 @@ export default function Navbar() {
       >
         <a href="#topo" className="flex items-center gap-2.5">
           <img
-            src="/images/logo-barbara.webp"
+            src="/images/logo.webp"
             alt={`${brand.name} — ${brand.tagline}`}
             className="h-9 w-auto sm:h-10"
           />
