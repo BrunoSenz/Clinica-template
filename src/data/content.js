@@ -55,27 +55,27 @@ export const treatments = {
     {
       name: 'Limpeza de pele',
       description: 'Higienização profunda e extração profissional para renovar a pele em profundidade.',
-      image: '/images/tratamento-protocolo.webp',
+      image: '/images/tratamento-01.webp',
     },
     {
       name: 'Tratamentos faciais',
       description: 'Protocolos combinados para hidratação, luminosidade e equilíbrio da pele do rosto.',
-      image: '/images/tratamento-protocolo.webp',
+      image: '/images/tratamento-02.webp',
     },
     {
       name: 'Rejuvenescimento',
       description: 'Técnicas que estimulam a renovação celular e a firmeza natural da pele.',
-      image: '/images/tratamento-protocolo.webp',
+      image: '/images/tratamento-03.webp',
     },
     {
       name: 'Protocolos personalizados',
       description: 'Planos de cuidado desenhados a partir da avaliação individual de cada cliente.',
-      image: '/images/tratamento-protocolo.webp',
+      image: '/images/tratamento-04.webp',
     },
     {
       name: 'Skincare profissional',
       description: 'Aplicação de ativos de alta performance para resultados visíveis e duradouros.',
-      image: '/images/tratamento-protocolo.webp',
+      image: '/images/tratamento-05.webp',
     },
   ],
 }
@@ -85,11 +85,10 @@ export const results = {
   title: 'Resultados',
   text: 'Uma seleção de resultados reais de clientes atendidos na clínica.',
   disclaimer: 'Resultados podem variar de acordo com cada pessoa.',
-  // TODO: substituir pelos pares reais de antes/depois
   items: [
-    { before: '/images/antes-depois-02-antes.webp', after: '/images/antes-depois-02-depois.webp', label: 'Protocolo facial · 8 semanas' },
-    { before: '/images/antes-depois-02-antes.webp', after: '/images/antes-depois-02-depois.webp', label: 'Limpeza de pele · 4 sessões' },
-    { before: '/images/antes-depois-02-antes.webp', after: '/images/antes-depois-02-depois.webp', label: 'Rejuvenescimento · 12 semanas' },
+    { before: '/images/antes-01.webp', after: '/images/depois-01.webp', label: 'Protocolo facial · 8 semanas' },
+    { before: '/images/antes-02.webp', after: '/images/depois-02.webp', label: 'Limpeza de pele · 4 sessões' },
+    { before: '/images/antes-03.webp', after: '/images/depois-03.webp', label: 'Rejuvenescimento · 12 semanas' },
   ],
 }
 
@@ -98,18 +97,16 @@ export const skincare = {
   title: 'A ciência do cuidado diário',
   text: 'Uma linha desenvolvida para levar o cuidado profissional da clínica para a rotina diária.',
   cta: 'Conhecer a linha',
-  // TODO: substituir pelos produtos reais
   products: [
-    { name: 'SOFT SKIN', benefit: 'Espuma de limpeza Facial.', image: '/images/espuma-produto-01.webp' },
-    { name: 'NIACIN PLUS', benefit: 'Sérum de Niacinamida', image: '/images/serum-produto-02.webp' },
-    { name: 'BASIC CARE', benefit: 'Hialurônico Gold.', image: '/images/basic-produto-03.webp' },
+    { name: 'SOFT SKIN', benefit: 'Espuma de limpeza Facial.', image: '/images/produto-01.webp' },
+    { name: 'NIACIN PLUS', benefit: 'Sérum de Niacinamida', image: '/images/produto-02.webp' },
+    { name: 'BASIC CARE', benefit: 'Hialurônico Gold.', image: '/images/produto-03.webp' },
   ],
 }
 
 export const testimonials = {
   eyebrow: 'Prova social',
   title: 'Depoimentos',
-  // TODO: substituir por depoimentos reais de clientes
   items: [
     { name: 'Cliente da clínica', text: 'Atendimento cuidadoso do início ao fim. Me senti acolhida e os resultados foram muito além do esperado.', rating: 5 },
     { name: 'Cliente da clínica', text: 'A Bárbara entende exatamente o que a pele precisa. Profissionalismo e delicadeza em cada sessão.', rating: 5 },
