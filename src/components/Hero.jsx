@@ -68,7 +68,7 @@ export default function Hero() {
           <div className="absolute -inset-3 -z-10 rounded-[2.5rem] border border-gold/30 sm:-inset-4" />
           <div className="overflow-hidden rounded-[2.2rem] shadow-soft">
             <img
-              src="/images/hero-barbara.webp"
+              src="/images/hero.webp"
               alt="Bárbara Fontes, esteticista cosmetóloga, sorrindo na entrada da clínica"
               className="h-full w-full object-cover"
               width="900"
