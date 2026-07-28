@@ -16,7 +16,7 @@ export default function About() {
         >
           <div className="overflow-hidden rounded-[2rem] shadow-soft">
             <img
-              src="/images/about-barbara.webp"
+              src="/images/about.webp"
               alt="Bárbara Fontes em sua clínica de estética"
               className="h-full w-full object-cover"
               loading="lazy"
