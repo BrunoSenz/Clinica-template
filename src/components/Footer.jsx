@@ -46,6 +46,17 @@ export default function Footer() {
         <p className="font-body text-[0.72rem] text-ink-faint">
           © {new Date().getFullYear()} {brand.name} — {brand.tagline}. Todos os direitos reservados.
         </p>
+        <p className="font-body text-[0.72rem] text-ink-faint">
+  Desenvolvido por{" "}
+  <a
+    href="https://instagram.com/brunosenz.dev"
+    target="_blank"
+    rel="noreferrer"
+    className="text-gold transition-colors hover:text-gold-dark"
+  >
+    Bruno Senz
+  </a>
+</p>
       </div>
     </footer>
   )
