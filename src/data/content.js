@@ -87,9 +87,9 @@ export const results = {
   disclaimer: 'Resultados podem variar de acordo com cada pessoa.',
   // TODO: substituir pelos pares reais de antes/depois
   items: [
-    { before: '/images/antes-depois-01-antes.webp', after: '/images/antes-depois-01-depois.webp', label: 'Protocolo facial · 8 semanas' },
+    { before: '/images/antes-depois-02-antes.webp', after: '/images/antes-depois-02-depois.webp', label: 'Protocolo facial · 8 semanas' },
     { before: '/images/antes-depois-02-antes.webp', after: '/images/antes-depois-02-depois.webp', label: 'Limpeza de pele · 4 sessões' },
-    { before: '/images/antes-depois-03-antes.webp', after: '/images/antes-depois-03-depois.webp', label: 'Rejuvenescimento · 12 semanas' },
+    { before: '/images/antes-depois-02-antes.webp', after: '/images/antes-depois-02-depois.webp', label: 'Rejuvenescimento · 12 semanas' },
   ],
 }
 
