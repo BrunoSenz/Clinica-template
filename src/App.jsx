@@ -1,3 +1,5 @@
+import { MessageCircle } from 'lucide-react'
+import { brand } from './data/content'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -37,6 +39,15 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <a
+  href={`https://wa.me/${brand.whatsapp}`}
+  target="_blank"
+  rel="noreferrer"
+  aria-label="WhatsApp"
+  className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-xl transition-transform duration-300 hover:scale-110"
+>
+  <MessageCircle size={28} />
+</a>
     </div>
   )
 }
