@@ -35,7 +35,15 @@ const imageConfigs = {
     // Produtos
     'produto-01': { width: 600, height: 600, fit: 'contain' },
     'produto-02': { width: 600, height: 600, fit: 'contain' },
-    'produto-03': { width: 600, height: 600, fit: 'contain' }
+    'produto-03': { width: 600, height: 600, fit: 'contain' },
+    
+    // Instagram (Formato Quadrado)
+    'insta-01': { width: 600, height: 600, fit: 'cover' },
+    'insta-02': { width: 600, height: 600, fit: 'cover' },
+    'insta-03': { width: 600, height: 600, fit: 'cover' },
+    'insta-04': { width: 600, height: 600, fit: 'cover' },
+    'insta-05': { width: 600, height: 600, fit: 'cover' },
+    'insta-06': { width: 600, height: 600, fit: 'cover' }
 };
 
 async function automatizarImagens() {

@@ -3,9 +3,7 @@ import { Instagram } from 'lucide-react'
 import { instagramSection, brand } from '../data/content'
 import ButterflyMark from './ButterflyMark'
 
-// Espaço preparado para integração futura com a API do Instagram.
-// Por ora, exibe placeholders elegantes — substitua /images/instagram-01.webp
-// (e 02, 03, 04) pelas imagens reais ou conecte o feed dinamicamente aqui.
+// O loop vai puxar as imagens insta-01.webp até insta-04.webp automaticamente
 const placeholders = [1, 2, 3, 4]
 
 export default function InstagramSection() {
@@ -50,7 +48,7 @@ export default function InstagramSection() {
               className="group aspect-square overflow-hidden rounded-2xl bg-nude-dark shadow-soft"
             >
               <img
-                src={`/images/instagram-0${n}.webp`}
+                src={`/images/insta-0${n}.webp`}
                 alt="Publicação do Instagram da clínica"
                 loading="lazy"
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
