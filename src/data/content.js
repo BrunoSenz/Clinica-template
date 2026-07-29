@@ -33,7 +33,7 @@ export const hero = {
 
 export const about = {
   eyebrow: 'Quem cuida de você',
-  title: 'Bárbara Fontes',
+  title: 'Maria Luiza Lima',
   role: 'Esteticista Cosmetóloga',
   paragraphs: [
     'Bárbara Fontes é Esteticista Cosmetóloga, especialista em pele e skincare. Há seis anos atua na área de estética e cosmetologia, buscando constantemente aprimorar seus conhecimentos para oferecer tratamentos personalizados.',
